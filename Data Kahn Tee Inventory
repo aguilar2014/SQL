@@ -1,0 +1,11 @@
+CREATE TABLE inventory (id INTEGER PRIMARY KEY, name text, quantity INTEGER);
+
+INSERT into inventory VALUES (1, "Stonewash Black", 4);
+
+INSERT INTO inventory VALUES (2, "Stonewash Green", 3);
+
+INSERT INTO inventory VALUES (3, "Forrest Green", 2);
+
+Select * FROM inventory;
+
+SELECT SUM(quantity) from inventory;
